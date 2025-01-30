@@ -1,0 +1,76 @@
+#teamName{
+    border: 3px solid white;
+    padding: 10px;
+
+    color: white;
+    background-color: rgb(12, 84, 12);
+
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 75px;
+    font-family: "Courier Prime", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    color: white;
+    background-color: rgb(57, 160, 57);
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.teamImg{
+    width: 100%;
+    height: 300px;
+    border: 5px solid white;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+.fig{
+    width: 15%;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;  /* wraps content */
+    justify-content:space-between; /*centers horizontally*/
+    align-items:center; /*centers vertically*/
+}
+hr{
+    width:75%; 
+    margin-top:20px;
+}
+.pageLink{
+    background-color:  rgb(12, 84, 12);
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding:10px;
+    border-radius: 50px;
+}
+footer{
+    background-color:rgb(5, 48, 5);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    margin: 50px 0 0 0;
+    justify-content: center;
+    display: flex;
+    color: rgb(177, 176, 176);
+}
+.pageLink:hover{
+    background-color: white;
+    color: rgb(12, 84, 12); 
+    
+}
+.pageLink:active{
+    background-color: white;
+    color: rgb(12, 84, 12);
+}
+#current{
+    background-color: white;
+    color: rgb(12, 84, 12);
+}
+
